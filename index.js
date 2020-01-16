@@ -16,7 +16,7 @@ function rectangle()
 {
   // this.l=l;
   // this.b=b;
-  Quadrilateral.call(this);
+  Quadrilateral.call(this)
   // this.l=l;
   // this.b=b
 }
