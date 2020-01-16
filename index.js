@@ -21,7 +21,7 @@ function rectangle()
   // this.b=b
 }
 rectangle.prototype=Object.create(Quadrilateral.prototype);
-rectangle.prototype.constructor=rectangle;
+//rectangle.prototype.constructor=rectangle;
 let rec=new Quadrilateral(1,2);
 console.log(rec.perimeter(1,2));
 let rec2=new rectangle();
