@@ -18,7 +18,7 @@ function rectangle()
   // this.b=b;
   Quadrilateral.call(this);
   // this.l=l;
-  // this.b=b;
+  // this.b=b
 }
 rectangle.prototype=Object.create(Quadrilateral.prototype);
 rectangle.prototype.constructor=rectangle;
